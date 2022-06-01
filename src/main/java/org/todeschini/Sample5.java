@@ -3,11 +3,11 @@ package org.todeschini;
 import bsh.EvalError;
 import bsh.Interpreter;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-
 public class Sample5 {
 
+    /**
+     * this sample show how to work Date as a text run in Java code
+     */
     public static void main(String[] args) {
         var script = new StringBuilder()
                 .append(" data = new Date();")
