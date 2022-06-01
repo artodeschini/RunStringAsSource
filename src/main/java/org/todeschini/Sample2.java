@@ -5,6 +5,9 @@ import bsh.Interpreter;
 
 public class Sample2 {
 
+    /**
+     * this sample show how to use sum arithmetic with method as a text run in Java code
+     */
     public static void main(String[] args) {
         var script = new StringBuilder()
                 .append(" int addMethod(a, b) {")
